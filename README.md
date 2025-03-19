@@ -19,14 +19,14 @@ npm install
 ```
 DB_HOST=localhost
 DB_PORT=5432
-DB_NAME=flyway_demo
-DB_USER=postgres
-DB_PASSWORD=postgres
+DB_NAME=liquibase_demo
+DB_USER=your_username
+DB_PASSWORD=your_password
 ```
 
 3. Create the database:
 ```bash
-createdb flyway_demo
+createdb liquibase_demo
 ```
 
 ## Usage
