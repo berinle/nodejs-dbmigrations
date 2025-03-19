@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd">
+
+    <changeSet id="1" author="app">
+        <insert tableName="users">
+            <column name="username" value="john_doe"/>
+            <column name="email" value="john@example.com"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="jane_smith"/>
+            <column name="email" value="jane@example.com"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="bob_wilson"/>
+            <column name="email" value="bob@example.com"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="alice_brown"/>
+            <column name="email" value="alice@example.com"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="charlie_davis"/>
+            <column name="email" value="charlie@example.com"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="emma_wilson"/>
+            <column name="email" value="emma@example.com"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="david_miller"/>
+            <column name="email" value="david@example.com"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="sarah_jones"/>
+            <column name="email" value="sarah@example.com"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="michael_lee"/>
+            <column name="email" value="michael@example.com"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="lisa_anderson"/>
+            <column name="email" value="lisa@example.com"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog> 
